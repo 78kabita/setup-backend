@@ -2,6 +2,7 @@
 import dotenv from "dotenv"
 
 import connectDB from "./db/indexs.js";
+import { app } from "./app.js";
 
 
 dotenv.config({
